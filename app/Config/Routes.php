@@ -19,4 +19,10 @@ $routes->get('data', 'Admin\DatasatuvisiController2::index2');
 // route beranda
 //$routes->get('beranda', 'BerandaController::index');
 
+// route tampilan login
 $routes->get('auth', 'LoginController::login');
+
+//route tampilan register
+$routes->get('register', 'RegisterController::register');
+
+$routes->get('Berita', 'Berita1Controller::berita1');

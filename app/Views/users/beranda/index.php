@@ -18,12 +18,12 @@
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="<?= base_url('assets'); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?= base_url('assets'); ?>/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="<?= base_url('assets'); ?>/vendor/aos/aos.css" rel="stylesheet">
-    <link href="<?= base_url('assets'); ?>/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="<?= base_url('assets'); ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- gaya CSS Files -->
+    <link href="<?= base_url('assets'); ?>/gaya/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets'); ?>/gaya/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="<?= base_url('assets'); ?>/gaya/aos/aos.css" rel="stylesheet">
+    <link href="<?= base_url('assets'); ?>/gaya/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets'); ?>/gaya/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
     <link href="<?= base_url('assets'); ?>/css/main.css" rel="stylesheet">
@@ -129,7 +129,7 @@
             <div class="container my-5">
                 <div class="custom-container p-4 bg-light rounded">
                     <p class="large-text">Layanan Aspirasi dan Pengaduan Masyarakat</p>
-                    <a href="#" class="btn btn-custom btn-sm">Buat Laporan</a>
+                    <a href="register" class="btn btn-custom btn-sm">Buat Laporan</a>
                 </div>
             </div>
 
@@ -155,7 +155,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card 1</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-custom btn-sm">Baca Berita</a>
+                                <a href="Berita" class="btn btn-custom btn-sm">Baca Berita</a>
                             </div>
                         </div>
                     </div>
@@ -693,15 +693,15 @@
     <!-- Preloader -->
     <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
-    <script src="<?= base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url('assets'); ?>/vendor/php-email-form/validate.js"></script>
-    <script src="<?= base_url('assets'); ?>/vendor/aos/aos.js"></script>
-    <script src="<?= base_url('assets'); ?>/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="<?= base_url('assets'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="<?= base_url('assets'); ?>/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="<?= base_url('assets'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="<?= base_url('assets'); ?>/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- gaya JS Files -->
+    <script src="<?= base_url('assets'); ?>/gaya/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('assets'); ?>/gaya/php-email-form/validate.js"></script>
+    <script src="<?= base_url('assets'); ?>/gaya/aos/aos.js"></script>
+    <script src="<?= base_url('assets'); ?>/gaya/purecounter/purecounter_vanilla.js"></script>
+    <script src="<?= base_url('assets'); ?>/gaya/glightbox/js/glightbox.min.js"></script>
+    <script src="<?= base_url('assets'); ?>/gaya/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="<?= base_url('assets'); ?>/gaya/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="<?= base_url('assets'); ?>/gaya/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
     <script src="<?= base_url('assets'); ?>/js/main.js"></script>
