@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Admin\DashboardController::index');
+$routes->get('/', 'BerandaController::index');
 
 // route admin dashboard
 $routes->get('dashboard', 'Admin\DashboardController::index');
@@ -17,4 +17,6 @@ $routes->get('data_satuvisi', 'Admin\DatasatuvisiController::index');
 $routes->get('data', 'Admin\DatasatuvisiController2::index2');
 
 // route beranda
-$routes->get('beranda', 'BerandaController::index');
+//$routes->get('beranda', 'BerandaController::index');
+
+$routes->get('auth', 'LoginController::login');

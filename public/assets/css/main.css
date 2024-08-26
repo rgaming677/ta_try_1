@@ -30,7 +30,7 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #444444;  /* The default color of the main navmenu links */
-  --nav-hover-color: #58DEDE; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #1bbca3; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -155,7 +155,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 60px;
   margin-right: 8px;
 }
 
@@ -873,7 +873,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# About Section
+# Bagian Buat Laporan
 --------------------------------------------------------------*/
 .about .content h3 {
   font-size: 2rem;
@@ -964,7 +964,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Bagian berita
 --------------------------------------------------------------*/
 .services .service-item {
   background-color: var(--surface-color);
@@ -1026,69 +1026,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
-.call-to-action {
-  padding: 80px 0;
-  position: relative;
-  clip-path: inset(0);
-}
-
-.call-to-action img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.call-to-action:before {
-  content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-.call-to-action .container {
-  position: relative;
-  z-index: 3;
-}
-
-.call-to-action h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--default-color);
-}
-
-.call-to-action p {
-  color: var(--default-color);
-}
-
-.call-to-action .cta-btn {
-  font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.call-to-action .cta-btn:hover {
-  background: var(--accent-color);
-  border: 2px solid var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# More Services Section
+# Bagian dokumentasi kegiatan
 --------------------------------------------------------------*/
 .more-services .card {
   background-color: var(--surface-color);
@@ -1123,7 +1061,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# Bagian sejarah
 --------------------------------------------------------------*/
 .portfolio .portfolio-filters {
   padding: 0;
@@ -1235,7 +1173,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Team Section
+# Bagian pengurus
 --------------------------------------------------------------*/
 .team {
   --default-color: #ffffff;
@@ -1394,7 +1332,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Contact Section
+# Bagian Kontak
 --------------------------------------------------------------*/
 .contact .info-item {
   background: color-mix(in srgb, var(--default-color), transparent 96%);
@@ -1464,7 +1402,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# sejarah edit details
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -1526,7 +1464,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Service Details Section
+# Dokumentasi kegiatan edit details
 --------------------------------------------------------------*/
 .service-details .services-list {
   background-color: var(--surface-color);
@@ -1648,6 +1586,58 @@ body {
 .large-text {
   font-size: 2.5rem; /* Ukuran font yang lebih besar */
 }
+
+/* Kontainer dengan gambar background blur */
+.service-item {
+  background-image: url('https://via.placeholder.com/400x300'); /* Ganti dengan URL gambar yang diinginkan */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Layer blur */
+.service-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(10px);
+  z-index: 1;
+}
+
+/* Konten di atas blur */
+.service-item .content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+/* Styling tambahan untuk teks dan ikon */
+.service-item h4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.service-item .icon {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
 
 
 

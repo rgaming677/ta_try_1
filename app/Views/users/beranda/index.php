@@ -45,7 +45,11 @@
             <a href="index.html" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="<?= base_url('assets'); ?>/img/logo.png" alt=""> -->
+                <div class="col-auto">
+                    <img src="<?= base_url('assets'); ?>/img/satuvisi.jpg" alt="Logo" class="logo">
+                </div>
                 <h1 class="sitename">SATU VISI </h1>
+
             </a>
 
             <nav id="navmenu" class="navmenu">
@@ -143,81 +147,60 @@
                 <p>Update Berita Hari Ini :</p>
             </div><!-- End Section Title -->
 
-            <div class="container">
-
-                <div class="row gy-4">
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-activity icon"></i></div>
-                            <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <div class="container mt-5">
+                <div class="row g-4"> <!-- g-4 untuk jarak antar kolom -->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/banner/1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom btn-sm">Baca Berita</a>
+                            </div>
                         </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                            <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/banner/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom btn-sm">Baca Berita</a>
+                            </div>
                         </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                            <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/banner/3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom btn-sm">Baca Berita</a>
+                            </div>
                         </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-item position-relative">
-                            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                            <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
+                    </div>
                 </div>
 
             </div>
 
         </section><!-- /Services Section -->
 
-        <!-- Call To Action Section -->
-        <section id="call-to-action" class="call-to-action section dark-background">
 
-            <img src="<?= base_url('assets'); ?>/img/cta-bg.jpg" alt="">
-
-            <div class="container">
-                <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="col-xl-10">
-                        <div class="text-center">
-                            <h3>Call To Action</h3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <a class="cta-btn" href="#">Call To Action</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section><!-- /Call To Action Section -->
 
         <!-- More Services Section -->
         <section id="more-services" class="more-services section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>More Services</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>Dokumentasi Kegiatan</h2>
+                <p>Kegiatan Satu Visi Untuk Masyarakat :</p>
             </div><!-- End Section Title -->
 
             <div class="container">
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                         <div class="card">
                             <img src="<?= base_url('assets'); ?>/img/more-service-1.jpg" class="img-fluid" alt="">
                             <h3>Ad cupiditate sed est odio</h3>
@@ -225,7 +208,7 @@
                         </div>
                     </div><!-- End Card Item -->
 
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
                         <div class="card">
                             <img src="<?= base_url('assets'); ?>/img/more-service-2.jpg" class="img-fluid" alt="">
                             <h3>Voluptatem voluptatum alias</h3>
@@ -233,7 +216,47 @@
                         </div>
                     </div><!-- End Card Item -->
 
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <h3>Fugit cupiditate alias nobis.</h3>
+                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        </div>
+                    </div><!-- End Card Item -->
+
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <h3>Fugit cupiditate alias nobis.</h3>
+                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        </div>
+                    </div><!-- End Card Item -->
+
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <h3>Fugit cupiditate alias nobis.</h3>
+                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        </div>
+                    </div><!-- End Card Item -->
+
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <h3>Fugit cupiditate alias nobis.</h3>
+                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        </div>
+                    </div><!-- End Card Item -->
+
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card">
+                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <h3>Fugit cupiditate alias nobis.</h3>
+                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        </div>
+                    </div><!-- End Card Item -->
+
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
                             <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
                             <h3>Fugit cupiditate alias nobis.</h3>
