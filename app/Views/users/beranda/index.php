@@ -135,7 +135,7 @@
                     <div class="overlay bg-black position-absolute top-0 start-0 w-100 h-100 opacity-50"></div> <!-- Overlay hitam semi-transparan -->
                     <div class="content position-relative z-3 text-white">
                         <p class="large-text">Layanan Aspirasi dan Pengaduan Masyarakat</p>
-                        <a href="register" class="btn btn-custom btn-sm" style="background-color: #1bbca3; color: white;">Buat Laporan</a>
+                        <a href="register" class="btn btn-custom btn-sm" style="background-color: #21d1f8; color: white;">Buat Laporan</a>
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-1.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/a.jpg" class="img-fluid" alt="">
                             <h3>Ad cupiditate sed est odio</h3>
                             <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
                         </div>
@@ -219,7 +219,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-2.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/b.jpg" class="img-fluid" alt="">
                             <h3>Voluptatem voluptatum alias</h3>
                             <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
                         </div>
@@ -227,7 +227,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/c.jpg" class="img-fluid" alt="">
                             <h3>Fugit cupiditate alias nobis.</h3>
                             <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                         </div>
@@ -235,7 +235,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/d.jpg" class="img-fluid" alt="">
                             <h3>Fugit cupiditate alias nobis.</h3>
                             <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                         </div>
@@ -243,7 +243,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/e.jpg" class="img-fluid" alt="">
                             <h3>Fugit cupiditate alias nobis.</h3>
                             <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                         </div>
@@ -251,7 +251,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/f.jpg" class="img-fluid" alt="">
                             <h3>Fugit cupiditate alias nobis.</h3>
                             <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                         </div>
@@ -259,7 +259,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/g.jpg" class="img-fluid" alt="">
                             <h3>Fugit cupiditate alias nobis.</h3>
                             <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                         </div>
@@ -267,7 +267,7 @@
 
                     <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <img src="<?= base_url('assets'); ?>/img/more-service-3.jpg" class="img-fluid" alt="">
+                            <img src="<?= base_url('assets'); ?>/img/dokumentasi satuvisi/h.jpg" class="img-fluid" alt="">
                             <h3>Fugit cupiditate alias nobis.</h3>
                             <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                         </div>
