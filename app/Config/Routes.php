@@ -33,3 +33,5 @@ $routes->get('Berita2', 'Berita2Controller::berita2');
 
 // route tampilan berita 2
 $routes->get('Berita3', 'Berita3Controller::berita3');
+
+$routes->get('Laporan', 'LaporanController::laporan');
