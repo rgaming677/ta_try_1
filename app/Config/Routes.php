@@ -25,4 +25,11 @@ $routes->get('auth', 'LoginController::login');
 //route tampilan register
 $routes->get('register', 'RegisterController::register');
 
+// route tampilan berita 1
 $routes->get('Berita', 'Berita1Controller::berita1');
+
+// route tampilan berita 2
+$routes->get('Berita2', 'Berita2Controller::berita2');
+
+// route tampilan berita 2
+$routes->get('Berita3', 'Berita3Controller::berita3');

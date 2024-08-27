@@ -54,7 +54,7 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#hero" class="active">Beranda</a></li>
                     <li><a href="#about">Buat Laporan</a></li>
                     <li><a href="#services">Berita</a></li>
                     <li><a href="#portfolio">Sejarah</a></li>
@@ -80,7 +80,7 @@
                     <div class="carousel-container">
                         <h2>Selamat Datang di Satu Visi</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#featured-services" class="btn-get-started">Get Started</a>
+                        <!--<a href="#featured-services" class="btn-get-started">Get Started</a> -->
                     </div>
                 </div><!-- End Carousel Item -->
 
@@ -89,7 +89,7 @@
                     <div class="carousel-container">
                         <h2>Masyarakat Sumba Yang Sejahterah</h2>
                         <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                        <a href="#featured-services" class="btn-get-started">Get Started</a>
+                        <!--<a href="#featured-services" class="btn-get-started">Get Started</a> -->
                     </div>
                 </div><!-- End Carousel Item -->
 
@@ -98,7 +98,7 @@
                     <div class="carousel-container">
                         <h2>Kami Ada Untuk Membangun Sumba Lebih Baik</h2>
                         <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                        <a href="#featured-services" class="btn-get-started">Get Started</a>
+                        <!--<a href="#featured-services" class="btn-get-started">Get Started</a> -->
                     </div>
                 </div><!-- End Carousel Item -->
 
@@ -122,16 +122,25 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Buat Laporan</h2>
-                <p>Laporkan Aspirasi dan Keluhan Anda Disini </p>
+                <p>Laporkan Aspirasi dan Keluhan Anda Disini</p>
             </div><!-- End Section Title -->
 
-            <!-- Button buat laporan -->
+            <!-- Button buat laporan dengan gambar lebih gelap -->
             <div class="container my-5">
-                <div class="custom-container p-4 bg-light rounded">
-                    <p class="large-text">Layanan Aspirasi dan Pengaduan Masyarakat</p>
-                    <a href="register" class="btn btn-custom btn-sm">Buat Laporan</a>
+                <div class="custom-container p-4 bg-light rounded position-relative text-center"
+                    style="background-image: url('https://scontent.fcgk3-2.fna.fbcdn.net/v/t39.30808-6/311740556_643096670523891_6351035672099807766_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFvgBIPH7Ye0oqPAFyjNt-U1HQ0t5DkH0bUdDS3kOQfRvV2894ZLvP9HiMVg8WQOVXYp8NK4jYQ5d6HIYvoEImx&_nc_ohc=naqQSo8HsZ0Q7kNvgEHL-K_&_nc_zt=23&_nc_ht=scontent.fcgk3-2.fna&oh=00_AYD0uEp06pWHMt4TXBzgNkepsz9h4Hz_7QD9Mp3SdGMhyA&oe=66D36040'); 
+                background-size: cover; 
+                background-position: center; 
+                filter: brightness(0.9);"> <!-- Brightness dikurangi untuk membuat gambar lebih gelap -->
+                    <div class="overlay bg-black position-absolute top-0 start-0 w-100 h-100 opacity-50"></div> <!-- Overlay hitam semi-transparan -->
+                    <div class="content position-relative z-3 text-white">
+                        <p class="large-text">Layanan Aspirasi dan Pengaduan Masyarakat</p>
+                        <a href="register" class="btn btn-custom btn-sm" style="background-color: #1bbca3; color: white;">Buat Laporan</a>
+                    </div>
                 </div>
             </div>
+
+
 
         </section><!-- /About Section -->
 
@@ -153,7 +162,7 @@
                         <div class="card">
                             <img src="<?= base_url('assets'); ?>/img/banner/1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card 1</h5>
+                                <h5 class="card-title">Bupati mengajak masyarakat untuk bertani</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="Berita" class="btn btn-custom btn-sm">Baca Berita</a>
                             </div>
@@ -163,9 +172,9 @@
                         <div class="card">
                             <img src="<?= base_url('assets'); ?>/img/banner/2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card 2</h5>
+                                <h5 class="card-title">Wisata Sumba masuk destinasi favorit pertama di Indonesia</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-custom btn-sm">Baca Berita</a>
+                                <a href="Berita2" class="btn btn-custom btn-sm">Baca Berita</a>
                             </div>
                         </div>
                     </div>
@@ -173,9 +182,9 @@
                         <div class="card">
                             <img src="<?= base_url('assets'); ?>/img/banner/3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card 3</h5>
+                                <h5 class="card-title">Rumah adat Sumba menjadi salah satu rumah budaya yang unik</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-custom btn-sm">Baca Berita</a>
+                                <a href="Berita3" class="btn btn-custom btn-sm">Baca Berita</a>
                             </div>
                         </div>
                     </div>
