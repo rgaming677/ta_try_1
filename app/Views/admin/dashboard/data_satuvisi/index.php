@@ -12,13 +12,19 @@
             </ol>
             <div class="card mb-4">
                 <div class="card-body">
-                    <p class="mb-0">
-                        This page is an example of using static navigation. By removing the
-                        <code>.sb-nav-fixed</code>
-                        class from the
-                        <code>body</code>
-                        , the top navigation and side navigation will become static on scroll. Scroll down this page to see an example.
-                    </p>
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">no.</th>
+                                <th scope="col">kode nomor</th>
+                                <th scope="col">laporan</th>
+                                <th scope="col">tanggal</th>
+                                <th scope="col">alamat</th>
+                                <th scope="col">no.telp</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                    </table>      
                 </div>
             </div>
             <div style="height: 100vh"></div>
