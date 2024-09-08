@@ -20,12 +20,15 @@
                     </nav>
                 </div>
 
-
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="<?= base_url('anggota'); ?>">
+                    <div class="sb-nav-link-icon"><i class="bi bi-person-lines-fill"></i></div>
+                    Anggota
+</a>
+                <a class="nav-link" href="<?= base_url('upber'); ?>">
                     <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                     Uploud Berita
                 </a>
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="<?= base_url('updoc'); ?>">
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                     Uploud Dokumentasi
                 </a>

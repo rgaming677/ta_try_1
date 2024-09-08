@@ -16,6 +16,15 @@ $routes->get('data_satuvisi', 'Admin\DatasatuvisiController::index');
 // route admin data(data laporan)
 $routes->get('data', 'Admin\DatasatuvisiController2::index2');
 
+//Anggota
+$routes->get('anggota', 'Admin\AnggotaController::anggota');
+
+//Upload Berita
+$routes->get('upber', 'Admin\UpberitaController::uploadberita');
+
+//Upload dokumentasi
+$routes->get('updoc', 'Admin\UpdocController::uploaddoc');
+
 // route beranda
 //$routes->get('beranda', 'BerandaController::index');
 
